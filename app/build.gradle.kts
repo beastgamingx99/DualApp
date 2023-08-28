@@ -28,6 +28,9 @@ android {
                 "proguard-rules.pro"
             )
         }
+        debug {
+            applicationIdSuffix = ".debug2"
+        }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
